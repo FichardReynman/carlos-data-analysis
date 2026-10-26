@@ -1,0 +1,34 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Excel temp/lock files (created when a spreadsheet is open)
+~$*.xls*
+
+# Editor settings
+.vscode/
+.idea/
+
+# Audio and video files (too large for git)
+*.mp3
+*.mp4
+
+# API keys and secrets (keep these in a separate, untracked file)
+.env
+*.key
+secrets.*
+
+# Large datasets (put anything over ~50 MB in this folder)
+large_data/
